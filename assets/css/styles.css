@@ -1,0 +1,78 @@
+/* -------------------- */
+/* ------- TEXT ------- */
+/* -------------------- */
+
+body {
+	font-family: 'Replica Pro Light', sans-serif;
+	/* 'Titillium Web', sans-serif; */
+	color: black;
+	font-size: 17px;
+}
+
+h1.display-4, h2, .navbar-brand {
+	font-family: 'Replica Pro Light', sans-serif;
+	/* , 'Quicksand', sans-serif; */
+	letter-spacing: 0.2em;
+}
+
+
+/* -------------------- */
+/* ----- HOME --------*/
+/* -------------------- */
+
+#home {
+	height: 100vh;
+	min-height: 600px;
+}
+@media (max-width: 768px) {
+	#home {
+		padding-top: 0;
+	}
+	#home > .row > .col > h1.display-4 {
+		font-size: 2.5em;
+	}
+	#home > .row > .col > h2 {
+		font-size: 1.5em;
+	}
+}
+
+/* -------------------- */
+/* ----- LOGO --------*/
+/* -------------------- */
+
+#logo {
+	width: 100%;
+}
+
+@media (min-width: 400px) {
+	#logo {
+		width: 65%;
+	}
+}
+
+@media (min-width: 576px) {
+	#logo {
+		width: 100%;
+	}
+}
+
+@media (min-width: 768px) {
+	#logo {
+		width: 75%;
+	}
+	#home {
+		padding-top: 0;
+	}
+	#home > .row > .col > h1.display-4 {
+		font-size: 2.5em;
+	}
+	#home > .row > .col > h2 {
+		font-size: 1.5em;
+	}
+}
+
+@media (min-width: 1200px) {
+	#logo {
+		width: 60%;
+	}
+}
